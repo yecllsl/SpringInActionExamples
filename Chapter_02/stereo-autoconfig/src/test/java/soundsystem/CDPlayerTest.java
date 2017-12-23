@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes=CDPlayerConfig.class)
+@RunWith(SpringJUnit4ClassRunner.class)//告知使用了SpringJUnit4ClassRunner
+@ContextConfiguration(classes=CDPlayerConfig.class)//告知从CDPlayerConfig加载配置
 public class CDPlayerTest {
 
   @Rule
